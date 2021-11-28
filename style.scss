@@ -1,0 +1,269 @@
+$bg-footer:rgb(46, 43, 43);
+$bg-body: rgb(218, 218, 218);
+$bg-vuelos: #888;
+$bg-violet:#270570;
+*{
+    padding: 0;
+    margin: 0;
+}
+.body__ofertas{
+    background-color: $bg-body;
+
+}
+
+/* HEADER----------------------------------------------------------------------------------------------------- */
+.titulo__dreamy{
+    color:rgb(153, 114, 114);
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-size: 4em;
+        text-shadow: 2px 2px 7px #000;
+}
+.banner__ofertas{
+    nav{
+        background-image: url(/img/banner.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+        
+        box-shadow: 2px 2px 2px 1px rgb(56, 55, 55)
+        
+
+}
+
+    ul{
+        color: black;
+        li{
+            font-size: 1.5em;
+            list-style: none;
+            display:inline-block;
+            background-position:left;
+            padding: 0.7rem;
+            
+            :hover{
+                
+                    color: rgb(219, 39, 84);
+                
+            }
+            
+        
+            a{  text-decoration: none;
+                text-align: center;
+                font-size: 1.5rem;}
+                color: black;
+                text-decoration: none;
+           }
+        }
+    
+       
+    }
+    
+
+    .titulo__alojamientos{
+        font-family: 'Merriweather', serif;
+        display: inline-block;
+        font-size: 2rem;
+        margin: 2rem;
+       display: flex;
+       justify-content: center;
+    }
+    .nav__barr{
+        a{
+            color: black;
+            background-color: white;
+        }
+    }
+
+/* FOOTER----------------------------------------------------------------------------------------------------- */
+
+.footer__ofertas{
+    background-color: $bg-footer;
+    color: white;
+    height: 105vh;
+   
+  .contactos--nosotros{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+    ul{
+        li{
+            display:inline-block;
+            background-position: center;
+            padding: 1rem;
+        }
+        a{
+          text-decoration: none;
+          text-align: center;
+          font-size: 2rem;
+          
+        }
+    }
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    
+}
+.textarea{
+    resize: none;
+    width: 700px;
+}
+.copyright{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.facebook{
+    color:rgb(15, 19, 211);
+    font-size: 2.8rem;
+}
+.twitter{
+    color: rgb(29, 161, 242);
+    font-size: 2.8rem;
+}
+.whatsapp{
+    color: rgb(31, 165, 60);
+    font-size: 2.8rem;
+}
+.instagram{
+    color: rgb(100, 50, 89);
+    font-size: 2.8rem;
+}   
+/* BOSTRAP */
+.hotel__alojamiento{
+    padding: 1rem;
+    img{
+        height: 300px;
+        
+    }
+}
+#carouselExampleCaptions{
+    height: 500px;
+    img{
+        height: 500px;
+    }
+  
+}
+.contenedores__vuelos{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+.numer__card{
+    font-size: 2rem;
+}
+.principal__img{
+    padding: 1rem;
+}
+/* aASITENCIA----------------------------------------------------------------------------------------------------- */
+
+.Menu__asistencia{
+    margin: 0.2rem;
+    width: 396px;
+}
+.img__asistencia{
+    padding: 0.2rem;
+}
+
+.target__1{
+    background-color: #ffffff;
+    margin: 1rem;
+    i{
+        color: #03a691;
+    }
+    border-radius: 4px;
+    font-family: inherit;
+    
+}
+.target__1:hover{
+    box-shadow:0px 0px 4px rgb(56, 55, 55);
+    scale: (1.1);
+    
+}
+.buttom__reserva{
+  background-color: $bg-violet;
+  color: white;
+  border-radius: 5px;
+  border:none;
+  margin: 2rem;
+}
+.text__asistencia{
+    margin: 1rem;
+    color: #888;;
+    
+    i{
+        padding: 0.2rem;
+    }
+    
+   
+}
+.logo__asistencia{
+    display: flex;
+    
+}
+.text__asistencia2{
+    margin: 1rem;
+}
+/* ACTIVIDADES--------------------------------------------------------------------------------------------------- */
+.panel__verano{
+    img{
+        width: 100%;
+    }
+}
+/* VUELOS------------------------------------------------------------------------------------------------------- */
+.text__vuelos{
+    color: $bg-vuelos;
+}
+.ofertas__vuelos{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    
+}
+.panel__ofertas{
+    width: 1200px;
+    margin: 2rem;
+    height: 120px;
+   
+}
+.img__vuelos-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.img__vuelos2{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.img__vuelos1{
+    width: 700px;
+    height: 300px;
+    padding: 0.2rem;
+}
+
+.vuelos__card{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    hr{
+        width: 100%;
+    }
+   button{
+    background-color: $bg-vuelos;
+    color: white;
+    border-radius: 5px;
+    border: none;
+   }
+}
