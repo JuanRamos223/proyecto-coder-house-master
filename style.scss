@@ -140,17 +140,9 @@ $bg-violet:#270570;
     width: 78rem;
 }
 
-.promociones{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    border-radius: 6rem;
-    padding: 10px 50px;
-    transition: all 10ms ease-in-out;
-   
-}
+
 .promociones:hover{
-    box-shadow:0px 0px 4px rgb(56, 55, 55);
+    
     color: black;
     transform: scale(1.2);
 }
@@ -279,11 +271,7 @@ display: flex;
     justify-content: center;
     
 }
-.colorts{
-    box-shadow: 2px 2px 2px 1px rgb(56, 55, 55);
-    
-    
-}
+
 /* FOOTER-------------------------------------------- */
 .logo__fotter{
     display: flex;
@@ -355,10 +343,7 @@ footer {
           
          
 }
-.textarea{
-    resize: none;
-    width: 700px;
-}
+
 .copyright{
     justify-content: center;
     display: flex;
@@ -856,10 +841,13 @@ height: 50%;
     }
     
     .promociones{
+        img{
+            border-radius: 60px;
+        }
         display: flex;
         justify-content: center;
-        background-color: white;
-        border-radius: 6rem;
+        
+        
         padding: 10px 50px;
         cursor: pointer;
     }
@@ -978,7 +966,8 @@ height: 50%;
 }
 .textarea{
     resize: none;
-    width: 700px;
+    width: 500px;
+    height: 200px;
 }
 .copyright{
     justify-content: center;
@@ -1133,4 +1122,10 @@ height: 50%;
     border-radius: 5px;
     border: none;
    }
+}
+.card:hover{
+    box-shadow: 0px 0px 3px;
+}
+.textarea2{
+    padding: 9px;
 }
