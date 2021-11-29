@@ -166,8 +166,8 @@
 
 .promociones:hover {
   color: black;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .comprar {
@@ -1292,6 +1292,21 @@ footer {
 }
 
 .textarea2 {
-  padding: 9px;
+  padding: 1.5rem;
+}
+
+.contenedor__info {
+  padding: 2rem;
+  margin: 4rem;
+  background-color: #dadada;
+  width: 78rem;
+}
+
+.contenedor__info h1 {
+  font-size: 1.8rem;
+}
+
+.body__conocenos {
+  background-color: #dadada;
 }
 /*# sourceMappingURL=style.css.map */
