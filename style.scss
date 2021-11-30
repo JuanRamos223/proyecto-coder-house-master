@@ -54,15 +54,19 @@ $bg-violet:#270570;
     
     width: 500px;
 }
-.titulo__lugares{
+.lugares__index{
     display: flex;
     justify-content: center;
+}
+.titulo__lugares{
+    
     text-shadow: 0.5px 0.3px 0.3px;
-    font-size: 4rem;
+    font-size: 3.8rem;
     background-color: rgb(158, 154, 154);
-    border-radius: 10%;
+    border-radius: 40px;
     display: block;
     text-align: center;
+    width: 900px;
 }
 .principal__img{
     display: flex;
@@ -241,14 +245,18 @@ display: flex;
 
 
 
-
+.titulo__compra{
+ display: flex;
+ justify-content: center;
+}
 
 .tituloantesfooter{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin: 2rem;
   padding: 14rem;
   background-color: rgb(197, 186, 186);
+  width:1000px;
+  border-radius: 40px;
     
 }
 .tituloantesfooter{
@@ -1096,6 +1104,7 @@ height: 50%;
 .img__vuelos-principal{
     display: flex;
     justify-content: space-between;
+    
 }
 .img__vuelos2{
     width: 300px;
