@@ -401,6 +401,19 @@ footer {
           justify-content: center;
 }
 
+.contacto__ayuda button {
+  color: white;
+  border: none;
+}
+
+.contacto__ayuda p {
+  font-size: 1.5rem;
+}
+
+.contacto__ayuda :hover {
+  color: #67676b;
+}
+
 .contacto__ayuda a:hover {
   color: #67676b;
 }

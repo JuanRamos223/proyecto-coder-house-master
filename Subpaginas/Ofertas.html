@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="/css+/bootstrap.min.css">
     <link rel="stylesheet" href="/style.scss">
     
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/style.scss">
-    <link rel="stylesheet" href="/css+/bootstrap.min.css">
+   
     <script src="https://kit.fontawesome.com/59b3b89d05.js" crossorigin="anonymous"></script>
     <title>ofertas</title>
 </head>
@@ -73,7 +73,29 @@
         <div class="contacto__ayuda">
             <ul class="contacto__ayuda2">
                 <li class="ayuda3"><a href="/Subpaginas/info.html" class="ayuda3">¡Conocenos!</li></a>
-              <li><a href="">¿Cómo funnciona DreamyPlace? </li></a>
+              <li>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                 <p> Ayuda</p>
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade moda__footer" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog ">
+                    <div class="modal-content ">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div> </li>
 
             <li> <a href="/contacto/terminosycondiciones.html">Términos y condiciones</li></a>
             </ul>
@@ -112,6 +134,6 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> 
-<script src="./js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script> 
 </html>
    
