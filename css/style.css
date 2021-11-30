@@ -821,8 +821,8 @@ footer {
   width: 100%;
   -ms-grid-columns: 289px 110px 5fr;
       grid-template-columns: 289px 110px 5fr;
-  -ms-grid-rows: 224px  2520px 570px;
-      grid-template-rows: 224px  2520px 570px;
+  -ms-grid-rows: 224px  2590px 570px;
+      grid-template-rows: 224px  2590px 570px;
       grid-template-areas: "head head head" "div div main" "footer footer footer";
 }
 
