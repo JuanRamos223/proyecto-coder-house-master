@@ -56,7 +56,8 @@
     padding: 1rem;
   }
   .img__pc {
-    width: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .lugares__index {
     display: -webkit-box;
@@ -953,7 +954,7 @@
   .footer__ofertas {
     background-color: #2e2b2b;
     color: white;
-    height: 105vh;
+    height: auto;
   }
   .footer__ofertas .contactos--nosotros {
     list-style: none;
@@ -1221,17 +1222,31 @@
   background-color: white;
 }
 
-.-titulo1 {
+.header-banner--principal .lugares__index h3 {
+  background-color: yellow;
+}
+
+.header-banner--principal .-titulo1 {
   color: #997272;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2em;
   text-shadow: 2px 2px 7px #000;
 }
 
-.titulo-principal {
+.header-banner--principal .titulo-principal {
   text-align: center;
   background-color: #270570;
   color: white;
   border-radius: 25px;
+}
+
+.header-banner--principal .titulo__lugares {
+  text-shadow: 0.5px 0.3px 0.3px;
+  font-size: 3.8rem;
+  background-color: #9e9a9a;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+  width: 900px;
 }
 /*# sourceMappingURL=style.css.map */
