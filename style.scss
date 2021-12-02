@@ -1,3 +1,5 @@
+
+@media screen and (min-width: 768px) {
 $bg-footer:rgb(46, 43, 43);
 $bg-body: rgb(218, 218, 218);
 $bg-vuelos: #888;
@@ -7,24 +9,34 @@ $bg-violet:#270570;
     margin: 0;
     box-sizing: border-box;
 }
+html , body{
+    height: 100%;
+}
 .body__ofertas{
     background-color: $bg-body;
 
 }
 .body__inicio{
-    background-color:rgb(218, 218, 218);
+    background-color:$bg-body;
 }
 /* HEADER ------------------------------------- HEADER*/
 .header-banner--principal{
-    background-image: url(/img/banner.jpg);
+    background-image: url(/img/banner.jpg) ;
+    min-width: 100vh;
     background-position:center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    height: 220px;
+   background-attachment: fixed;
+   width: auto; 
+   height: 220px;
     color: blue;
     box-shadow: 2px 2px 2px 1px rgb(56, 55, 55);
+    box-sizing: border-box;
     
-}
+        
+    }
+    
+
 .header-banner--principal li{
     font-size: 1.5em;
     
@@ -51,8 +63,8 @@ $bg-violet:#270570;
     
 }
 .img__pc{
-    
-    width: 500px;
+    object-fit: cover
+    width:600px;
 }
 .lugares__index{
     display: flex;
@@ -136,7 +148,7 @@ $bg-violet:#270570;
     
 }
 .ptp{
-    display: block;
+    display: inline-block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -291,7 +303,9 @@ footer {
     background-image: linear-gradient(rgb(0, 0, 0) , rgb(58, 57, 57));
     clear: both;
     color :white ;  
-    height: 110vh;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
     
     
 }
@@ -955,7 +969,7 @@ height: 50%;
 .footer__ofertas{
     background-color: $bg-footer;
     color: white;
-    height: 105vh;
+    height: auto;
    
   .contactos--nosotros{
     list-style: none;
@@ -1160,11 +1174,70 @@ height: 50%;
     h1{
         font-size: 1.8rem;
     }
-    h2{
-       
-    }
+    
 }
 
 .body__conocenos{
     background-color: $bg-body;
 }
+
+/* ofertas-------------------------------------------------------------------------------------------------- */
+.home{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.in_flex{
+    flex: 1;
+    min-width: 250px;
+    
+}
+.in_flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+    
+}   
+
+.in_flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+
+/* MOBILE */
+/* index---------------------------- */
+.body__inicio{
+    background-color:rgb(218, 218, 218);
+}
+.header-banner--principal{
+    background-image: url(/img/banner.jpg);
+    background-position:center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    li{
+        display: inline-block;
+        
+        font-size: 25px;
+    }
+   a{
+       color: #000;
+       background-color: white;
+   }
+}
+.-titulo1{
+    color:rgb(153, 114, 114);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px #000;
+}
+.titulo-principal{
+    text-align: center;
+    background-color:#270570 ;
+    color: white;
+    border-radius: 25px
+}
+
