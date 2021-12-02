@@ -63,8 +63,8 @@ html , body{
     
 }
 .img__pc{
-    object-fit: cover
-    width:600px;
+    object-fit: cover;
+    
 }
 .lugares__index{
     display: flex;
@@ -837,6 +837,7 @@ height: 50%;
         display:inline-block;
         background-position:left;
         padding: 0.7rem;
+        
        
         
         
@@ -1205,6 +1206,8 @@ height: 50%;
     padding: 25px;
     background-color: #fff;
     margin: 20px;
+} 
+
 }
 
 
@@ -1226,8 +1229,15 @@ height: 50%;
    a{
        color: #000;
        background-color: white;
+       
+       
    }
-}
+  .lugares__index{
+      h3{
+          background-color: yellow;
+      }
+  }
+
 .-titulo1{
     color:rgb(153, 114, 114);
     font-family: Georgia, 'Times New Roman', Times, serif ;
@@ -1239,5 +1249,14 @@ height: 50%;
     background-color:#270570 ;
     color: white;
     border-radius: 25px
-}
 
+}
+.titulo__lugares{
+    text-shadow: 0.5px 0.3px 0.3px;
+    font-size: 3.8rem;
+    background-color: rgb(158, 154, 154);
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+    width: 900px;
+}
