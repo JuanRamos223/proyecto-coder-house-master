@@ -1562,4 +1562,14 @@ footer h2 {
 .contacto__ayuda :hover {
   color: #67676b;
 }
+
+.tituloantesfooter2 {
+  text-align: center;
+  margin: 5px;
+  padding: 15px;
+  background-color: #c5baba;
+  width: 98%;
+  border-radius: 40px;
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=style.css.map */
