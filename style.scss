@@ -1,6 +1,6 @@
 
-@media screen and (min-width: 768px) {
-$bg-footer:rgb(46, 43, 43);
+@media screen and (min-width: 768px){
+    $bg-footer:rgb(46, 43, 43);
 $bg-body: rgb(218, 218, 218);
 $bg-vuelos: #888;
 $bg-violet:#270570;
@@ -26,7 +26,7 @@ html , body{
     background-position:center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-   background-attachment: fixed;
+   
    width: auto; 
    height: 220px;
     color: blue;
@@ -63,7 +63,7 @@ html , body{
     
 }
 .img__pc{
-    object-fit: cover;
+    object-fit: cover
     
 }
 .lugares__index{
@@ -566,20 +566,21 @@ footer {
     flex-wrap: nowrap;
 }
 .PROTOTIPO{
-    background-color: rgb(211, 214, 214);
-    width: 300px;
-    height: 400px;
+    img{
+        padding: 0;
+        height: 300px;
+    }
+}
+.prototipo2{
+    
+        img{
+            padding: 0;
+            height: 300px;
+        }
     
 }
-
-.pesca{
-background-image: url(/img/pesca.jpg);
-height: 50%;
-
-}
 .PROTOTIPO:hover{
-    box-shadow:0px 0px 15px rgb(56, 55, 55);
-    color: black;
+    
     transform: scale(1.1);
    }
 
@@ -591,15 +592,9 @@ height: 50%;
     margin: 1rem;
 }
 
-.prototipo2{
-    background-color: rgb(221, 224, 224);
-    width: 300px;
-    height: 400px;
-    
-}
+
 .prototipo2:hover{
-    box-shadow:0px 0px 15px rgb(56, 55, 55);
-    color: black;
+    
     transform: scale(1.1);
    }
 .cayac{
@@ -616,17 +611,14 @@ height: 50%;
 }
 
 .rueda{
-    background-color: rgb(211, 214, 214);
-    width: 300px;
-    height: 400px;
-    border-radius: 5%;
+    
+        img{
+            padding: 0;
+            height: 300px;
+        }
     
 }
-.rueda:hover{
-    box-shadow:0px 0px 15px rgb(56, 55, 55);
-    color: black;
-    transform: scale(1.1);
-   }
+
 
 .rueda2{
     background-image: url(/img/rueda.jpg);
@@ -636,6 +628,9 @@ height: 50%;
     background-size: cover; /* Resize the background image to cover the entire container */
     border-radius: 5%;
     
+}
+.rueda2:hover{
+    transform: scale(1.1);
 }
 .rueda3{
     font-size: 1.4rem;
@@ -686,7 +681,7 @@ height: 50%;
     background-color:#270570;
     display: flex;
     height: 45px;
-    
+    width: 1213px;
     justify-content: flex-end;
     align-items: center;
     vertical-align: baseline;
@@ -709,6 +704,8 @@ height: 50%;
 
 .cja2{
     background-color: white;
+    width: 1213px;
+    
 }
 
 .texto23{
@@ -727,7 +724,7 @@ height: 50%;
     width: 100%;
     
     grid-template-columns:289px 110px 5fr  ;
-    grid-template-rows: 224px  2590px 570px ;
+    grid-template-rows: 224px  2890px 570px ;
     grid-template-areas: "head head head"
                         "div div main"
                         "footer footer footer";
@@ -885,7 +882,7 @@ height: 50%;
         
         
         padding: 10px 50px;
-        cursor: pointer;
+        
     }
     
     .nosotros{
@@ -1208,11 +1205,11 @@ height: 50%;
     margin: 20px;
 }
 
+}
 
-/* MOBILE */
-/* index---------------------------- */
+
 .body__inicio{
-    background-color:rgb(218, 218, 218);
+    background-color: rgb(218, 218, 218);
 }
 .header-banner--principal{
     background-image: url(/img/banner.jpg);
@@ -1224,17 +1221,12 @@ height: 50%;
         
         font-size: 25px;
     }
-   a{
-       color: #000;
+    a{
+        color: #000;
        background-color: white;
-       
-       
-   }
-  .lugares__index{
-      h3{
-          background-color: yellow;
-      }
-  }
+       border-radius:5px;
+    }
+}
 
 .-titulo1{
     color:rgb(153, 114, 114);
@@ -1242,12 +1234,326 @@ height: 50%;
     font-size: 2em;
     text-shadow: 2px 2px 7px #000;
 }
+
 .titulo-principal{
     text-align: center;
+   background-color:#270570 ;
+   color: white;
+   border-radius: 25px
+
+}
+
+
+.titulo__lugares{
+    text-shadow: 0.5px 0.3px 0.3px;
+    font-size: 3.8rem;
+    background-color: rgb(158, 154, 154);
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+    width: auto;
+}
+.tituloantesfooter{
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    background-color: rgb(197, 186, 186);
+    width:98%;
+    border-radius: 40px;
+
+}
+.card{
+    padding: 1rem;
+}
+.card:hover{
+    box-shadow: 0px 0px 3px;
+}
+
+footer{
+    background-image: linear-gradient(rgb(0, 0, 0) , rgb(58, 57, 57));
+    clear: both;
+    color :white ;  
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    li{
+        list-style: none;
+    }
+    h2{
+        text-align: center;
+    }
+    
+}
+
+.logo__fotter{
+    display: flex;
+    justify-content: center;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.facebook{
+    color:rgb(15, 19, 211);
+}
+.twitter{
+    color: rgb(29, 161, 242);
+}
+.whatsapp{
+    color: rgb(31, 165, 60);
+}
+.instagram{
+    color: rgb(100, 50, 89);
+}
+.contacto__ayuda2{
+    li{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.promociones{
+    img{
+        border-radius: 60px;
+    }
+}
+.textarea{
+    height: 60px;
+}
+
+
+/* asistencia----------------------------------- */
+.text__asistencia{
+    margin: 1rem;
+    color: #888;;
+    
+    i{
+        padding: 0.2rem;
+    }
+    
+   
+}
+.contenedor__mobile-1{
+    padding: 15px;
+    
+}
+
+.contedor1{
+    background-color: #4300d2;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #dde7d5;
+}
+.contenedor2{
+    background-color: #4300d2;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #dde7d5;
+}
+.contenedor3{
+    background-color: #4300d2;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #dde7d5;
+}
+.contenedor4{
+    background-color: #4300d2;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #dde7d5;
+}   
+.parrafo4{
+    display: block;
+    padding: 0rem;
+    margin: 1rem;
+    border: 3rem;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    
+    font-variant: inherit;
+    line-height: 1.33;
+    padding-bottom: 40px;
+    margin-bottom: 24px;
+    color: #888888;
+    text-align:left;
+}
+.Sydney2{
+    background-color: ivory;
+    padding: 1rem;
+    
+    
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    text-align: center;
+    
+}
+.syndey{
+    
+    color: rgb(49, 123, 207);
+    text-align: center;
+    padding: 1rem;
+} 
+.King{ 
+    background-color: ivory;
+    padding: 1rem;
+    margin: 1rem;
+    
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+}   
+.Granvia{
+    background-color: ivory;
+    padding: 1rem;
+    margin: 1rem;
+    
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    
+}    
+.text__vuelos{
+    color: #888;
+}
+.buttom__{
+    background-color: #888;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.buttom__reserva{
     background-color:#270570 ;
     color: white;
-    border-radius: 25px
+    border-radius: 5px;
+    border:none;
+    
+  }
+  .target__1{
+    background-color: #ffffff;
+    padding: 15px;
+   
+    i{
+        color: #03a691;
+    }
+    border-radius: 4px;
+    font-family: inherit;
+    
+}
+.img__asistencia{
+    width: 100%;
+}
+.contenedores__vuelos{
+    padding: 25px;
+    
+    p{
+        font-size: 1.2rem;
+    }
+    
+}
 
-} 
-
+.numer__card{
+    font-size: 2rem;
+}
+.body_terminos{
+    
+    background-color:#f0eeee;
+    
+    
+}
+.navr{
+    background-color: #FFF;
+}
+.caja1{
+    
+    
+    
+    margin: 3rem;
+    
+    padding: 20px;
+}
+.cja2{
+    background-color: white;
+   width: 100%;
+    
+}
+.descarga{
+    background-color:#270570;
+    display: flex;
+    height: 45px;
+    
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: baseline;
+    padding: 11px;
+}
+.inicio{
+    text-decoration: none;
+    background-color: #270570;
+    color:white ;
+    margin: 0.6rem;
+}
+.titulo1{
+    color:rgb(153, 114, 114);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px #000;
+    text-align: center;
+    
+}
+.promociones{
+    img{
+        border-radius: 60px;
+        
+    }
+    display: flex;
+    justify-content: center;
+    
+    
+    padding: 10px 50px;
+    
+}
+.copyright{
+    font-size: 1rem;
+}
+.body__asistencia{
+    background-color:rgb(218, 218, 218) ;
+}
+.contacto__ayuda{
+    button{
+       color: white;
+        border:none;
+        
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    :hover{
+        color:rgb(103, 103, 107);
+    }
 }
