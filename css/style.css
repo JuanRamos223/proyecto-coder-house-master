@@ -738,7 +738,7 @@
         grid-template-columns: 289px 110px 5fr;
     -ms-grid-rows: 224px  2890px 570px;
         grid-template-rows: 224px  2890px 570px;
-        grid-template-areas: "head head head" "div div main" "footer footer footer";
+        grid-template-areas: "head head head" "div div main" "footer footer footer";
   }
   .grid > div {
     -ms-grid-row: 2;
@@ -1337,7 +1337,10 @@ footer h2 {
 }
 
 .contenedor__mobile-1 {
-  padding: 15px;
+  padding: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contedor1 {
@@ -1572,6 +1575,4 @@ footer h2 {
   border-radius: 40px;
   font-size: 1.3rem;
 }
-
-
 /*# sourceMappingURL=style.css.map */
